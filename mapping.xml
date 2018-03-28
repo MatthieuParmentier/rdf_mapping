@@ -43,12 +43,14 @@
 		<ebucore:durationNormalPlayTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">PT00:03:10.200</ebucore:durationNormalPlayTime>
 		
 		<!-- SIvideo: id - mandatory -->
+		<!-- Marc-Antoine => manque le type: urn:uuid:033896ec-24d2-4785-82a7-fd3b686078c0-->
 		<ebucore:identifier>033896ec-24d2-4785-82a7-fd3b686078c0</ebucore:identifier>
 		
 		<!-- SIvideo: short_description (string - optional, nullable) -->
 		<ebucore:abstract xml:lang="fr">chapeau limité à 500 mots</ebucore:abstract>
 		
 		<!-- SIvideo: description (string - optional, nullable) -->
+		<!-- Marc-Antoine manques la langue "fr" -->
 		<ebucore:synopsis>texte descriptif principal sans limitation de taille</ebucore:synopsis>
 		
 		<!-- SIvideo: tags (string, sous forme de liste à réintégrer en éléments d'une liste d'autorité - optional, nullable)-->
@@ -58,11 +60,13 @@
 		<!-- SIvideo: audio_tracks (string, sous forme de liste à réintégrer en éléments d'une liste d'autorité - optional, nullable) -->
 		<ebucore:hasRelatedAudioProgramme>
 			<ebucore:audioProgramme rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP1">
+				<!-- Marc-Antoine Pourquoi pas une liste controllée ? -->
 				<ebucore:description>Français</ebucore:description>
 			</ebucore:audioProgramme>
 		</ebucore:hasRelatedAudioProgramme>
 		<ebucore:hasRelatedAudioProgramme>
 			<ebucore:audioProgramme rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP2">
+				<!-- Marc-Antoine AD Francais ou quelle langue ? on mélange l'information de langue et de type de contenu. -->
 				<ebucore:description>Audio description</ebucore:description>
 			</ebucore:audioProgramme>
 		</ebucore:hasRelatedAudioProgramme>
@@ -72,16 +76,20 @@
 			<ebucore:audioProgramme rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP3">
 				<ebucore:description>OBA</ebucore:description>
 				<ebucore:hasRelatedAudioContent>
-					<ebucore:audioContent rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP3_AC1"
-					<ebucore:description>Dialogues Français</ebucore:description>
+					<ebucore:audioContent rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP3_AC1">
+						<ebucore:description>Dialogues Français</ebucore:description>
+					</ebucore:audioContent>
 				</ebucore:hasRelatedAudioContent>
 				<ebucore:hasRelatedAudioContent>
-					<ebucore:audioContent rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP3_AC2"
-					<ebucore:description>Version Internationale</ebucore:description>
+					<ebucore:audioContent rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP3_AC2">
+						<ebucore:description>Version Internationale</ebucore:description>
+					</ebucore:audioContent>
 				</ebucore:hasRelatedAudioContent>
 				<ebucore:hasRelatedAudioContent>
-					<ebucore:audioContent rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP3_AC3"
-					<ebucore:description>Version Française Audiodécrite</ebucore:description>
+					<ebucore:audioContent rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP3_AC3">
+						<!-- Marc-Antoine Mélange de la langue et du type de contenu -->
+						<ebucore:description>Version Française Audiodécrite</ebucore:description>
+					</ebucore:audioContent>
 				</ebucore:hasRelatedAudioContent>
 			</ebucore:AudioProgramme>
 		</ebucore:hasRelatedAudioProgramme>
@@ -90,6 +98,7 @@
 		<ebucore:dateBroadcast rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-16T10:55:12.200+02:00</ebucore:dateBroadcast>
 		
 		<!-- SIvideo: category (liste d'autorité - optional, nullable) -->
+		<!-- Marc-Antoine liste controllée basé sur des identifiant ne comprenant pas de caratère spéciaux (utiliser _ ou -)-->
 		<ebucore:hasGenre rdf:resource="ftv_genre:serie&fiction"/>
 		
 		<!-- SIvideo: channel (liste d'autorité - optional, nullable) -->
@@ -188,7 +197,7 @@
 							<ebucore:organisationName>Fléchet</ebucore:organisationName>
 						</rdf:Description>
 					</ebucore:isAgent>
-				</ebucore:hasArtefactSupplier
+				</ebucore:hasArtefactSupplier>
 				<ebucore:hasArtefactRelatedAgent>
 					<rdf:type rdf:resource="ftv_personnage:0033896ec-24d2-4785-82a7-fd3b686078c0"/>
 				</ebucore:hasArtefactRelatedAgent>
@@ -286,7 +295,7 @@
 				<ebucore:partName>chapitre 3</ebucore:partName>
 				<ebucore:startNormalPlayTime>00:04:50.112</ebucore:startNormalPlayTime>
 				<ebucore:durationNormalPlayTime>PT00:00:20.000</ebucore:durationNormalPlayTime>
-				<ebucore:partNumber>3</ebucore:partNumber>			
+				<ebucore:partNumber>3</ebucore:partNumber>
 			</ebucore:Part>
 		</ebucore:hasPart>
 		<!-- END CHAPITRAGE -->
@@ -303,16 +312,18 @@
 		<ebucore:hasProducer>FRA</ebucore:hasProducer>
 		<!-- SIvideo: rating (string, sous forme de liste à réintégrer en éléments d'une liste d'autorité - optional, nullable)-->
 		<ebucore:hasTargetAudience>
-			<rdf:type rdf:resource="ftv_csa#Déconseillé aux -10 ans"
+			<rdf:type rdf:resource="ftv_csa#Déconseillé aux -10 ans"/>
 		</ebucore:hasTargetAudience>
-		<ebucore:geoBlocking>[ {"id": "france", "label": "France", "code": "FRA"}, {"id": "andorre",
-			"label": "Andorre", "code": "AND"}, {"id": "monaco", "label": "Monaco", "code": "MCO"},
-			] </ebucore:geoBlocking>
+		<!-- Marc-Antoine: pas de json dans du XML, proposition avec comme référence: http://id.loc.gov/vocabulary/countries.rdf-->
+		<ebucore:geoBlocking rdf:about="dbpedia-fr:France"></ebucore:geoBlocking>
+		<ebucore:geoBlocking rdf:about="dbpedia-fr:Andorre"></ebucore:geoBlocking>
+		<ebucore:geoBlocking rdf:about="dbpedia-fr:Monaco"></ebucore:geoBlocking>
+
 		<ebucore:seasonNumber>1</ebucore:seasonNumber>
 		<ebucore:hasRelatedResource rdf:resource="https://replay-ftv-vh.akamaihd.net/z/978f7146-41e3-11e6-8153-000d3a23d482"/>
 	</ebucore:editorialObject>
 	<ebucore:Essence rdf:about="https://replay-ftv-vh.akamaihd.net/z/978f7146-41e3-11e6-8153-000d3a23d482">
-		 <!-- Cédric: Typer en xsd:date ou xsd:dateTime-->
+		 <!-- Cédric: Typer en xsd:date ou xsd:dateTime
 
 		<ebucore:resourceId>978f7146-41e3-11e6-8153-000d3a23d482</ebucore:resourceId>
 		<ebucore:hasCreator>mathieu.broqua@francetv.fr</ebucore:hasCreator>
@@ -329,9 +340,10 @@
 				<ebucore:trackPurpose>Audio description</ebucore:trackPurpose>
 			</ebucore:Track>
 		</ebucore:hasTrack>
-	</ebucore:Essence>
+	</ebucore:Essence>-->
 	
 	<!-- PUBLICATION -->
+	<!-- comment générer un ID unique pour le about ? besoin réel d'identifier ?-->
 	<ebucore:PublicationEvent rdf:about="ftv_/france2/pe1">
 		<ebucore:publicationStartDateTime>2015-09-16T10:55:12.200+02:00</ebucore:publicationStartDateTime>
 		<ebucore:live>true</ebucore:live>
@@ -401,4 +413,3 @@
 		<ebucore:hasRelatedResource rdf:resource="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0"/>
 	</ebucore:Season>
 </rdf:RDF>
-
