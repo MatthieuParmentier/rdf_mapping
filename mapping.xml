@@ -73,7 +73,7 @@
 		
 		<!-- Syntaxe dans le cas d'un contenu OBA, notamment post-process audio SubTil - optional, nullable) -->
 		<ebucore:hasRelatedAudioProgramme>
-			<ebucore:audioProgramme rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP3">
+			<ebucore:AudioProgramme rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP3">
 				<ebucore:description>OBA</ebucore:description>
 				<ebucore:hasRelatedAudioContent>
 					<ebucore:audioContent rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0_AP3_AC1">
@@ -99,14 +99,14 @@
 		
 		<!-- SIvideo: category (liste d'autorité - optional, nullable) -->
 		<!-- Marc-Antoine liste controllée basé sur des identifiant ne comprenant pas de caratère spéciaux (utiliser _ ou -)-->
-		<ebucore:hasGenre rdf:resource="ftv_genre:serie&fiction"/>
+		<ebucore:hasGenre rdf:resource="ftv_genre:serie-fiction"/>
 		
 		<!-- SIvideo: channel (liste d'autorité - optional, nullable) -->
 		<ebucore:hasPublisher rdf:resource="ftv_chaine:france-2"/>
 		
 		<!-- SIvideo: copyright (liste d'autorité - optional, nullable) -->
 		<ebucore:hasOwner>
-			<rdf:type rdf:resource="ftv_role:producteur">
+			<rdf:type rdf:resource="ftv_role:producteur"></rdf:type>
 			<ebucore:isAgent>
 				<rdf:Description rdf:about="ftv_entite:o98u87ec-24d2-4785-82a7-fd3b686078c0">
 					<rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Organisation"/>
@@ -322,7 +322,7 @@
 		<ebucore:seasonNumber>1</ebucore:seasonNumber>
 		<ebucore:hasRelatedResource rdf:resource="https://replay-ftv-vh.akamaihd.net/z/978f7146-41e3-11e6-8153-000d3a23d482"/>
 	</ebucore:editorialObject>
-	<ebucore:Essence rdf:about="https://replay-ftv-vh.akamaihd.net/z/978f7146-41e3-11e6-8153-000d3a23d482">
+	<!-- <ebucore:Essence rdf:about="https://replay-ftv-vh.akamaihd.net/z/978f7146-41e3-11e6-8153-000d3a23d482"> -->
 		 <!-- Cédric: Typer en xsd:date ou xsd:dateTime
 
 		<ebucore:resourceId>978f7146-41e3-11e6-8153-000d3a23d482</ebucore:resourceId>
