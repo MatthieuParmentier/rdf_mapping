@@ -223,58 +223,58 @@
 						<ebucore:givenName>Jean-Paul</ebucore:givenName>
 						<ebucore:familyName>Gaultier</ebucore:familyName>
 						<ebucore:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date"></ebucore:dateOfBirth>
-									<ebucore:placeOfBirth>Paris</ebucore:placeOfBirth>
+						<ebucore:placeOfBirth>Paris</ebucore:placeOfBirth>
 						<ebucore:gender>male</ebucore:gender>
-									<ebucore:agentImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.imdb.com/name/nm0310116/</ebucore:agentImdb>
+						<ebucore:agentImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.imdb.com/name/nm0310116/</ebucore:agentImdb>
 					    </rdf:Description>
 					</ebucore:isAgent>
 			     </rdf:Description>
 			</ebucore:hasArtefactCreator>
 			<ebucore:hasArtefactMaker>
 				<rdf:Description>
-						<rdf:type rdf:resource="ftv_role:fabricant"/>
-						<ebucore:isAgent>
-							<rdf:Description rdf:about="ftv_entite:pliv87ec-24d2-4785-82a7-fd3b686078c0">
-								<rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Organisation"/>
-								<ebucore:organisationName>Fléchet</ebucore:organisationName>
-							</rdf:Description>
-						</ebucore:isAgent>
-					    </rdf:Description>    
-					</ebucore:hasArtefactMaker>
-					<ebucore:hasArtefactSupplier>
-					    <rdf:Description>
-					    <rdf:type rdf:resource="ftv_role:fournisseur"/>
-						<ebucore:isAgent>
-							<rdf:Description rdf:about="ftv_entite:ob7t87ec-24d2-4785-82a7-fd3b686078c0">
-								<rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Organisation"/>
-								<ebucore:organisationName>Fléchet</ebucore:organisationName>
-							</rdf:Description>
-						</ebucore:isAgent>
-					    </rdf:Description>
-					</ebucore:hasArtefactSupplier>
+					<rdf:type rdf:resource="ftv_role:fabricant"/>
+					<ebucore:isAgent>
+						<rdf:Description rdf:about="ftv_entite:pliv87ec-24d2-4785-82a7-fd3b686078c0">
+							<rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Organisation"/>
+							<ebucore:organisationName>Fléchet</ebucore:organisationName>
+						</rdf:Description>
+					</ebucore:isAgent>
+				</rdf:Description>    
+			</ebucore:hasArtefactMaker>
+			<ebucore:hasArtefactSupplier>
+				<rdf:Description>
+					<rdf:type rdf:resource="ftv_role:fournisseur"/>
+					<ebucore:isAgent>
+						<rdf:Description rdf:about="ftv_entite:ob7t87ec-24d2-4785-82a7-fd3b686078c0">
+							<rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Organisation"/>
+							<ebucore:organisationName>Fléchet</ebucore:organisationName>
+						</rdf:Description>
+					</ebucore:isAgent>
+				</rdf:Description>
+			</ebucore:hasArtefactSupplier>
 			<ebucore:hasArtefactRelatedAgent>
-			    <rdf:Description>
-						<rdf:type rdf:resource="ftv_personnage:0033896ec-24d2-4785-82a7-fd3b686078c0"/>
-			    </rdf:Description>
+				<rdf:Description>
+					<rdf:type rdf:resource="ftv_personnage:0033896ec-24d2-4785-82a7-fd3b686078c0"/>
+				</rdf:Description>
 			</ebucore:hasArtefactRelatedAgent>
 		    </rdf:Description>
 		</ebucore:hasRelatedArtefact>
 		<!-- END ARTEFACTS / COSTUMES / PROPS -->
 
-        <!-- IDENTIFIANTS -->
+        	<!-- IDENTIFIANTS -->
 		<!-- SIvideo: id - mandatory -->
 		<ebucore:hasIdentifier>
-		    <rdf:Description rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0">
-		    <ebucore:identifier>
-				<rdf:type rdf:ressource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier"/>
-			</ebucore:identifier>
-		  </rdf:Description>
+			<rdf:Description rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0">
+		    		<ebucore:identifier>
+					<rdf:type rdf:ressource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier"/>
+				</ebucore:identifier>
+			</rdf:Description>
 		</ebucore:hasIdentifier>
 		<!-- END IDENTIFIANTS -->
 
 		<!-- CHAPITRAGE -->
-        <ebucore:hasPart>
-            <ebucore:Part rdf:about="ftv_mediaid/033896ec-24d2-4785-82a7-fd3b686078c0_part1">
+        	<ebucore:hasPart>
+            		<ebucore:Part rdf:about="ftv_mediaid/033896ec-24d2-4785-82a7-fd3b686078c0_part1">
 				<rdf:type rdf:resource="ftv_segmentation#GeneriqueDebut"/>
 				
 				<!-- SIvideo: parts[].title (string - optional, nullable)-->
@@ -288,120 +288,119 @@
                 
 				<!-- SIvideo: parts[].index (string - optional, nullable)-->
 				<ebucore:partNumber>1</ebucore:partNumber>
-            </ebucore:Part>
-        </ebucore:hasPart>
-        <ebucore:hasPart>
-            <ebucore:Part rdf:about="ftv_mediaid/medias/033896ec-24d2-4785-82a7-fd3b686078c0_part2">
+        		</ebucore:Part>
+        	</ebucore:hasPart>
+        	<ebucore:hasPart>
+            		<ebucore:Part rdf:about="ftv_mediaid/medias/033896ec-24d2-4785-82a7-fd3b686078c0_part2">
 				<rdf:type rdf:resource="ftv_segmentation#ProgrammeUtile"/>
-                <ebucore:partName>chapitre 2</ebucore:partName>
-                <ebucore:startNormalPlayTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">00:01:20.111</ebucore:startNormalPlayTime>
-                <ebucore:durationNormalPlayTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">PT00:03:30.000</ebucore:durationNormalPlayTime>
-                <ebucore:partNumber>2</ebucore:partNumber>
+				<ebucore:partName>chapitre 2</ebucore:partName>
+				<ebucore:startNormalPlayTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">00:01:20.111</ebucore:startNormalPlayTime>
+				<ebucore:durationNormalPlayTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">PT00:03:30.000</ebucore:durationNormalPlayTime>
+				<ebucore:partNumber>2</ebucore:partNumber>
 				
 				<!-- SIvideo: parts[].tags (string, sous forme de liste à réintégrer en éléments d'une liste d'autorité - optional, nullable)-->
-                <ebucore:hasTopic>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="ftv_tag:economie"/>
-                    </rdf:Description>
-                </ebucore:hasTopic>
-                <ebucore:hasTopic>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="ftv_tag:politique"/>
-                    </rdf:Description>
-                </ebucore:hasTopic>
-            </ebucore:Part>
-        </ebucore:hasPart>
-        <ebucore:hasPart>
-            <ebucore:Part rdf:about="ftv_mediaid:medias/033896ec-24d2-4785-82a7-fd3b686078c0_part3">
+				<ebucore:hasTopic>
+				    <rdf:Description>
+					<rdf:type rdf:resource="ftv_tag:economie"/>
+				    </rdf:Description>
+				</ebucore:hasTopic>
+				<ebucore:hasTopic>
+				    <rdf:Description>
+					<rdf:type rdf:resource="ftv_tag:politique"/>
+				    </rdf:Description>
+				</ebucore:hasTopic>
+            		</ebucore:Part>
+        	</ebucore:hasPart>
+        	<ebucore:hasPart>
+            		<ebucore:Part rdf:about="ftv_mediaid:medias/033896ec-24d2-4785-82a7-fd3b686078c0_part3">
 				<rdf:type rdf:resource="ftv_segmentation#GeneriqueFin"/>
-                <ebucore:partName>chapitre 3</ebucore:partName>
-                <ebucore:startNormalPlayTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">00:04:50.112</ebucore:startNormalPlayTime>
-                <ebucore:durationNormalPlayTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">PT00:00:20.000</ebucore:durationNormalPlayTime>
-                <ebucore:partNumber>3</ebucore:partNumber>			
-            </ebucore:Part>
-        </ebucore:hasPart>
+				<ebucore:partName>chapitre 3</ebucore:partName>
+				<ebucore:startNormalPlayTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">00:04:50.112</ebucore:startNormalPlayTime>
+				<ebucore:durationNormalPlayTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">PT00:00:20.000</ebucore:durationNormalPlayTime>
+				<ebucore:partNumber>3</ebucore:partNumber>			
+            		</ebucore:Part>
+        	</ebucore:hasPart>
 		<!-- END CHAPITRAGE -->
         
-        <!-- APPARTENANCE A UN GROUPE OU PLUSIEURS GROUPES -->
-        <ebucore:isMemberOf>
+		<!-- APPARTENANCE A UN GROUPE OU PLUSIEURS GROUPES -->
+		<ebucore:isMemberOf>
+
+		    <!-- SIvideo: groups (string - optional) -->
+		    <!-- SIvideo: groups[].id (string - optional) -->
+		    <rdf:Description rdf:about="ftv_groupid:p9tr96ec-24d2-4785-82a7-fd3b686078c0">
+			<rdf:type rdf:ressource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Group"></rdf:type>
+		    </rdf:Description>
+		</ebucore:isMemberOf>
+
+        	<ebucore:references>
             
-            <!-- SIvideo: groups (string - optional) -->
-            <!-- SIvideo: groups[].id (string - optional) -->
-            <rdf:Description rdf:about="ftv_groupid:p9tr96ec-24d2-4785-82a7-fd3b686078c0">
-                <rdf:type rdf:ressource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Group"></rdf:type>
-            </rdf:Description>
-        </ebucore:isMemberOf>
+		    <!-- SIvideo: parent_id (string - optional) -->
+		    <rdf:Description rdf:about="ftv_mediaid:p9tr96ec-24d2-4785-82a7-fd3b686078c0">
+			<rdf:type rdf:ressource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject"></rdf:type>
+		    </rdf:Description>
+		</ebucore:references>
+		<!-- END APPARTENANCE A UN GROUPE OU PLUSIEURS GROUPES -->
         
-        <ebucore:references>
-            
-            <!-- SIvideo: parent_id (string - optional) -->
-            <rdf:Description rdf:about="ftv_mediaid:p9tr96ec-24d2-4785-82a7-fd3b686078c0">
-                <rdf:type rdf:ressource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject"></rdf:type>
-            </rdf:Description>
-        </ebucore:references>
-        <!-- END APPARTENANCE A UN GROUPE OU PLUSIEURS GROUPES -->
-        
-        <!-- IMAGES ASSOCIEES -->
-        <ebucore:hasRelatedImage>
-            <rdf:Description rdf:about="ftv_mediaid:06f9a6bc-79a4-42cf-aaa9-10b64651b635">            
-                
-                <!-- SIvideo: images[].id (string (UUID) - optional) -->
-                <ebucore:resourceId>06f9a6bc-79a4-42cf-aaa9-10b64651b635</ebucore:resourceId>
-                
-                <!-- SIvideo: images[].format (string URL https - optional) -->
-                <ebucore:locator rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://francetv.fr/my-image.jpg</ebucore:locator>
-                
-                <!-- SIvideo: images[].created_at (string (iso-8601) - optional) -->
-                <ebucore:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-16T10:55:12.200+02:00</ebucore:dateCreated>
-                
-                <!-- SIvideo: images[].updated_at (string (iso-8601) - optional) -->
-                <ebucore:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-16T10:55:12.200+02:00</ebucore:dateModified>
-                
-                <!-- dateCreatedVia to be discussed - hardwareAgent? sotwareAgent?? -->
-                
-                <!-- SIvideo: images[].filename (string - optional) -->
-                <ebucore:filename>my-image.jpg</ebucore:filename>
-                
-                <!-- SIvideo: images[].filesize_bytes (integer - optional, nullable) -->
-                <ebucore:fileSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66287612987321</ebucore:fileSize>
-                
-                <!-- SIvideo: images[].format (liste d'autorité - optional) -->
-                <ebucore:hasFormat>jpeg</ebucore:hasFormat>
-                
-                <!-- SIvideo: images[].height (integer - optional) -->
-                <ebucore:height>720</ebucore:height>
-                <ebucore:heightUnit>pixel</ebucore:heightUnit>
-                
-                <!-- SIvideo: images[].width (integer - optional) -->
-                <ebucore:width>1280</ebucore:width>
-                <ebucore:widthUnit>pixel</ebucore:widthUnit>
-                
-                <!-- SIvideo: images[].md5_checksum (optional - nullable) -->
-                <ebucore:hashValue>567cc3be5348ee049f034b8beb64d36e</ebucore:hashValue>
-                
-                <!-- SIvideo: images[].tags (string, sous forme de liste à réintégrer en éléments d'une liste d'autorité - optional, nullable)-->
-                <ebucore:hasTopic>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="ftv_tag:economie"/>
-                    </rdf:Description>
-                </ebucore:hasTopic>
-                <ebucore:hasTopic>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="ftv_tag:politique"/>
-                    </rdf:Description>
-                </ebucore:hasTopic>
-                
-                <ebucore:isIssuedby>
-                    
-                    <!-- SIvideo: images[].created_via (string - optional - nullable) -->
-                    <rdf:Description rdf:about="ftv_entite:033896ec-24d2-4785-82a7-fd3b686078c">
-                        <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Organisation"/>
-                    </rdf:Description>
-                </ebucore:isIssuedby>
-                
-            </rdf:Description>
-        </ebucore:hasRelatedImage>
-        <!-- END IMAGES ASSOCIEES -->
+		<!-- IMAGES ASSOCIEES -->
+		<ebucore:hasRelatedImage>
+		    <rdf:Description rdf:about="ftv_mediaid:06f9a6bc-79a4-42cf-aaa9-10b64651b635">            
+
+			<!-- SIvideo: images[].id (string (UUID) - optional) -->
+			<ebucore:resourceId>06f9a6bc-79a4-42cf-aaa9-10b64651b635</ebucore:resourceId>
+
+			<!-- SIvideo: images[].format (string URL https - optional) -->
+			<ebucore:locator rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://francetv.fr/my-image.jpg</ebucore:locator>
+
+			<!-- SIvideo: images[].created_at (string (iso-8601) - optional) -->
+			<ebucore:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-16T10:55:12.200+02:00</ebucore:dateCreated>
+
+			<!-- SIvideo: images[].updated_at (string (iso-8601) - optional) -->
+			<ebucore:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-16T10:55:12.200+02:00</ebucore:dateModified>
+
+			<!-- dateCreatedVia to be discussed - hardwareAgent? sotwareAgent?? -->
+
+			<!-- SIvideo: images[].filename (string - optional) -->
+			<ebucore:filename>my-image.jpg</ebucore:filename>
+
+			<!-- SIvideo: images[].filesize_bytes (integer - optional, nullable) -->
+			<ebucore:fileSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66287612987321</ebucore:fileSize>
+
+			<!-- SIvideo: images[].format (liste d'autorité - optional) -->
+			<ebucore:hasFormat>jpeg</ebucore:hasFormat>
+
+			<!-- SIvideo: images[].height (integer - optional) -->
+			<ebucore:height>720</ebucore:height>
+			<ebucore:heightUnit>pixel</ebucore:heightUnit>
+
+			<!-- SIvideo: images[].width (integer - optional) -->
+			<ebucore:width>1280</ebucore:width>
+			<ebucore:widthUnit>pixel</ebucore:widthUnit>
+
+			<!-- SIvideo: images[].md5_checksum (optional - nullable) -->
+			<ebucore:hashValue>567cc3be5348ee049f034b8beb64d36e</ebucore:hashValue>
+
+			<!-- SIvideo: images[].tags (string, sous forme de liste à réintégrer en éléments d'une liste d'autorité - optional, nullable)-->
+			<ebucore:hasTopic>
+			    <rdf:Description>
+				<rdf:type rdf:resource="ftv_tag:economie"/>
+			    </rdf:Description>
+			</ebucore:hasTopic>
+			<ebucore:hasTopic>
+			    <rdf:Description>
+				<rdf:type rdf:resource="ftv_tag:politique"/>
+			    </rdf:Description>
+			</ebucore:hasTopic>
+
+			<ebucore:isIssuedby>
+
+			    <!-- SIvideo: images[].created_via (string - optional - nullable) -->
+			    <rdf:Description rdf:about="ftv_entite:033896ec-24d2-4785-82a7-fd3b686078c">
+				<rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Organisation"/>
+			    </rdf:Description>
+			</ebucore:isIssuedby>
+		    </rdf:Description>
+		</ebucore:hasRelatedImage>
+		<!-- END IMAGES ASSOCIEES -->
         
 		<!-- POUR FAIRE LE LIEN ENTRE OBJET EDITORIAL ET LA OU LES ESSENCES CI-APRES -->
 		<ebucore:hasRelatedResource>
@@ -409,7 +408,7 @@
 		        <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Essence"/>
 		    </rdf:Description>
 		</ebucore:hasRelatedResource>      
-    </ebucore:editorialObject>
+    	</ebucore:editorialObject>
 		
 	<ebucore:Essence rdf:about="https://replay-ftv-vh.akamaihd.net/z/978f7146-41e3-11e6-8153-000d3a23d482">
 		
@@ -417,7 +416,7 @@
 		<rdf:type rdf:resource="ftv_segmentation#Bande-annonce"/>
 		
 		<!-- SIvideo: created_at (string ISO 8601 - mandatory) -->
-        <ebucore:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-16T10:55:12.200+02:00</ebucore:dateCreated>
+        	<ebucore:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-16T10:55:12.200+02:00</ebucore:dateCreated>
         
 		<!-- SIvideo: updated_at (string ISO 8601 - mandatory) -->
 		<ebucore:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-16T10:55:12.200+02:00</ebucore:dateModified>
@@ -473,13 +472,13 @@
 		      <ebucore:geoBlocking rdf:resource="dbpedia-fr:Monaco"></ebucore:geoBlocking>
 		    </rdf:Description>
 		</ebucore:hasPublicationEvent>
-	    <!-- END CARACTERISTIQUES DE DIFFUSION -->	
+	    	<!-- END CARACTERISTIQUES DE DIFFUSION -->	
 	</ebucore:Essence>
         
         
-	    <!-- GROUPE -->
-    <!-- Groups: the definition can be refined if the type of group is known. here apparently the group would have episodes with a season number, hence a season -->
-    <ebucore:Group rdf:about="ftv_groupeid:6e418fe3-9b59-11e6-8f64-005056b8da26">
+	<!-- GROUPE -->
+    	<!-- Groups: the definition can be refined if the type of group is known. here apparently the group would have episodes with a season number, hence a season -->
+    	<ebucore:Group rdf:about="ftv_groupeid:6e418fe3-9b59-11e6-8f64-005056b8da26">
 	        
 	        <!-- SIvideo: groups[].id (string (uuid)- optional) -->
 	        <ebucore:groupId>6e418fe3-9b59-11e6-8f64-005056b8da26</ebucore:groupId>
@@ -524,7 +523,6 @@
 	                    </rdf:Description>
 	                </ebucore:hasepisode>
 	            </rdf:Description>
-	        </ebucore:hasSeason>
-	    
-	    </ebucore:Group>
+	        </ebucore:hasSeason>   
+	</ebucore:Group>
 </rdf:RDF>
