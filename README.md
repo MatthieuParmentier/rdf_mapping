@@ -15,9 +15,9 @@ sample RDF of FranceTV mapping
 | hasGenre | Array(Category) |  | $.category[*].id |
 | hasIdentifier | urn:uuid |  | $.id |
 | isMemberOf | Array(Group) |  | $.groups |
-| hasRelatedImage | [Media](#media) | internal reference |
-| hasRelatedAudioProgramme | Array([Essence](#essence)) | internal reference |
-| hasRelatedResource | Array([Essence](#essence)) | internal reference |
+| hasRelatedImage | [Media](#media) | |
+| hasRelatedAudioProgramme | Array([Essence](#essence)) | | |
+| hasRelatedResource | Array([Essence](#essence)) | | |
 
 ## Media
 | Predicate | DataType | Language | Mapping (Json Path) |
