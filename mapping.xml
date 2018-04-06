@@ -5,6 +5,7 @@
 	xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
 	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	xmlns:ftv_groupeid="http://ressources.idfrancetv.fr/programmes/groupeid#"
+	xmlns:ftv_identifiant="http://ressources.idfrancetv.fr/programmes/identifiant#"
 	xmlns:ftv_mediaid="http://ressources.idfrancetv.fr/programmes/mediaid#"
     	xmlns:ftv_segmentation="http://ressources.idfrancetv.fr/ontologies/segmentation#"
     	xmlns:ftv_entite="http://ressources.idfrancetv.fr/ontologies/entite#"
@@ -264,10 +265,8 @@
         	<!-- IDENTIFIANTS -->
 		<!-- SIvideo: id - mandatory -->
 		<ebucore:hasIdentifier>
-			<rdf:Description rdf:about="ftv_mediaid:033896ec-24d2-4785-82a7-fd3b686078c0">
-		    		<ebucore:identifier>
-					<rdf:type rdf:ressource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier"/>
-				</ebucore:identifier>
+			<rdf:Description rdf:about="033896ec-24d2-4785-82a7-fd3b686078c0">
+		        	<ebucore:identifier rdf:type="ftv_identifiant#SIvideo"/>
 			</rdf:Description>
 		</ebucore:hasIdentifier>
 		<!-- END IDENTIFIANTS -->
