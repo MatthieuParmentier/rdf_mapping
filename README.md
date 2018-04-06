@@ -87,3 +87,56 @@ sample RDF of FranceTV mapping
 | france_info |
 | france_tv_slash |
 
+### Categories
+| List |
+| ---- |
+| actualites_et_societe |
+| documentaires |
+| enfants |
+| films |
+| jeux_et_divertissements |
+| séries_et_fictions |
+| spectacles_et_culture |
+| sport |
+| vie_quotidienne |
+| les_videos_france_tv_slash |
+
+###Sous-catégories
+| List |
+| ---- |
+| emissions_culturelles |
+| info_et_meteo |
+| magazines_d_actu |
+| politique |
+| religion |
+| reportages |
+| sante |
+| temoignages |
+| animaux_et_nature |
+| art_et_culture |
+| environnement |
+| histoire |
+| politique |
+| science_et_sante |
+| societe |
+| sport |
+| voyages |
+| dessins_animes |
+| emissions_jeunesse_et_famille |
+| films_d_animation |
+| action |
+| cinema_documentaire |
+| comedie |
+| drame |
+| famille_et_enfants |
+
+### Tags
+| List |
+| ---- |
+| news |
+| indiscretions |
+| essentiels |
+| bonus |
+| mode_et_deco |
+| primes |
+| bande_annonce |
