@@ -55,7 +55,9 @@ sample RDF of FranceTV mapping
 | publicationChannel | [Chaine](#Chaine) | | |
 
 # Codes CSA
-| TP |
+| List |
+| ---- |
+| tout_public |
 | 10 |
 | 12 |
 | 16 |
