@@ -54,6 +54,12 @@ sample RDF of FranceTV mapping
 | publicationEvent | [Publication](#Publication) | | |
 | publicationChannel | [Chaine](#Chaine) | | |
 
+# Codes CSA
+| TP |
+| 10 |
+| 12 |
+| 16 |
+| 18 |
 
 ### Segmentation
 | List |
@@ -76,4 +82,6 @@ sample RDF of FranceTV mapping
 | france_4 |
 | france_5 |
 | france_o |
+| france_info |
+| france_tv_slash |
 
