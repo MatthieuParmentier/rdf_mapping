@@ -39,7 +39,7 @@ sample RDF of FranceTV mapping
 | heightUnit | ftv:units | | | | 
 | width | xsd:integer | | | $.files[?(@.id)].width |
 | widthUnit | ftv:units | | | | 
-| hashValue | urn:md5:value | | `yes` | $.files[?(@.id)].md5_checksum |
+| hashValue | urn:md5 | | `yes` | $.files[?(@.id)].md5_checksum |
 
 ## Essence
 
