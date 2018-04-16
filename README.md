@@ -26,20 +26,20 @@ sample RDF of FranceTV mapping
 
 `http://ressources.idfrancetv.fr/image/{{$.files[?(@.format.label == 'image/jpeg')].id}}`
 
-| Predicate | DataType | Language | Mapping (Json Path) |
-| ------------- | ------------- | ------------- |------------- |
-| resourceId | urn:uuid | | $.files[?(@.id)].id |
-| locator | xsd:anyURI | | $.files[?(@.id)].url |
-| dateCreated | xsd:dateTime | | $.files[?(@.id)].created_at |
-| dateModified | xsd:dateTime | | $.files[?(@.id)].updated_at |
-| filename | xsd:string |  | $.files[?(@.id)].filename |
-| fileSize | xsd:unsignedLong |  | $.files[?(@.id)].filesize_bytes |
-| hasFormat | urn:mimetype |  | $.files[?(@.id)].format.mime_type |
-| height | xsd:integer | | $.files[?(@.id)].height |
-| heightUnit | ftv:units | | |
-| width | xsd:integer | | $.files[?(@.id)].width |
-| widthUnit | ftv:units | | |
-| hashValue | urn:md5:value | | $.files[?(@.id)].md5_checksum |
+| Predicate | DataType | Language | URI | Mapping (Json Path) |
+| --------- | -------- | -------- | --- | ------------------- |
+| resourceId | urn:uuid | | `yes` | $.files[?(@.id)].id |
+| locator | xsd:anyURI | | `yes` | $.files[?(@.id)].url |
+| dateCreated | xsd:dateTime | | | $.files[?(@.id)].created_at |
+| dateModified | xsd:dateTime | | | $.files[?(@.id)].updated_at |
+| filename | xsd:string | | | $.files[?(@.id)].filename |
+| fileSize | xsd:unsignedLong | | | $.files[?(@.id)].filesize_bytes |
+| hasFormat | urn:mimetype | | `yes` | $.files[?(@.id)].format.mime_type |
+| height | xsd:integer | | | $.files[?(@.id)].height |
+| heightUnit | ftv:units | | | | 
+| width | xsd:integer | | | $.files[?(@.id)].width |
+| widthUnit | ftv:units | | | | 
+| hashValue | urn:md5:value | | `yes` | $.files[?(@.id)].md5_checksum |
 
 ## Essence
 
