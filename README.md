@@ -24,7 +24,7 @@ sample RDF of FranceTV mapping
 
 ## Image
 
-`http://ressources.idfrancetv.fr/programmes/image#{$.id}`
+`http://ressources.idfrancetv.fr/image/{{$.files[?(@.format.label == 'image/jpeg')].id}}`
 
 | Predicate | DataType | Language | Mapping (Json Path) |
 | ------------- | ------------- | ------------- |------------- |
@@ -43,7 +43,7 @@ sample RDF of FranceTV mapping
 
 ## Essence
 
-`http://ressources.idfrancetv.fr/programmes/essence#{$.id}`
+`http://ressources.idfrancetv.fr/programmes/essence/{{$.files[?(@.format.label == 'video/mp4')].id}}`
 
 | Predicate | DataType | Language | Mapping (Json Path) |
 | ------------- | ------------- | ------------- |------------- |
