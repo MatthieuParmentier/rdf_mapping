@@ -3,6 +3,9 @@ sample RDF of FranceTV mapping
 
 
 ## Editorial Object
+
+`http://ressources.idfrancetv.fr/programmes/media#{$.id}`
+
 | Predicate | DataType | Language | Mapping (Json Path) |
 | ------------- | ------------- | ------------- |------------- |
 | title | xsd:string | `yes` | $.title |
@@ -19,7 +22,10 @@ sample RDF of FranceTV mapping
 | hasRelatedAudioProgramme | Array([Essence](#essence)) | | |
 | hasRelatedResource | Array([Essence](#essence)) | | |
 
-## Media
+## Image
+
+`http://ressources.idfrancetv.fr/programmes/image#{$.id}`
+
 | Predicate | DataType | Language | Mapping (Json Path) |
 | ------------- | ------------- | ------------- |------------- |
 | resourceId | urn:uuid | | $.files[?(@.id)].id |
@@ -36,6 +42,9 @@ sample RDF of FranceTV mapping
 | hashValue | urn:md5:value | | $.files[?(@.id)].md5_checksum |
 
 ## Essence
+
+`http://ressources.idfrancetv.fr/programmes/essence#{$.id}`
+
 | Predicate | DataType | Language | Mapping (Json Path) |
 | ------------- | ------------- | ------------- |------------- |
 | type | [Segmentation](#Segmentation) | | |
