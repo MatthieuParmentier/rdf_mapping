@@ -6,21 +6,25 @@ sample RDF of FranceTV mapping
 
 `http://ressources.idfrancetv.fr/programmes/media#{$.id}`
 
-| Predicate | DataType | Language | Mapping (Json Path) |
-| ------------- | ------------- | ------------- |------------- |
-| title | xsd:string | `yes` | $.title |
-| originalTitle | xsd:string | `yes` | $.original_title |
-| alternativeTitle | xsd:string | `yes` | $.additional_title |
-| abstract | xsd:string | `yes` | $.short_description |
-| synopsis | xsd:string | `yes` | $.description |
-| episodeNumber | xsd:integer |  |  |
-| hasTopic | Array(Tag) |  | $.tags[*].id |
-| hasGenre | Array(Category) |  | $.category[*].id |
-| hasIdentifier | urn:uuid |  | $.id |
-| isMemberOf | Array(Group) |  | $.groups |
-| hasRelatedImage | [Media](#media) | |
-| hasRelatedAudioProgramme | Array([Essence](#essence)) | | |
-| hasRelatedResource | Array([Essence](#essence)) | | |
+| Predicate | DataType | Language | URI | Mapping (Json Path) |
+| --------- | -------- | -------- | --- | ------------------- |
+| title | xsd:string | `yes` | | $.title |
+| originalTitle | xsd:string | `yes` | | $.original_title |
+| alternativeTitle | xsd:string | `yes` | | $.additional_title |
+| abstract | xsd:string | `yes` | | $.short_description |
+| synopsis | xsd:string | `yes` | | $.description |
+| dateModified | xsd:dateTime | | | $.updated_at |
+| dateCreated | xsd:dateTime | | | $.created_at |
+| dateBroadcast | xsd:dateTime | | | $.broadcasted_at |
+| durationNormalPlayTime | xsd:duration | | | $.duration |
+| episodeNumber | xsd:integer | | | | 
+| hasTopic | Array(Tag) | | |  $.tags[*].id |
+| hasGenre | Array(Category) | | | $.category[*].id |
+| hasIdentifier | urn:uuid | | `yes` | $.id |
+| isMemberOf | Array(Group) | | | $.groups |
+| hasRelatedImage | [Image](#image) | | | |
+| hasRelatedAudioProgramme | Array([Essence](#essence)) | | | | 
+| hasRelatedResource | Array([Essence](#essence)) | | | | 
 
 ## Image
 
