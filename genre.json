@@ -1,0 +1,38 @@
+[
+  {
+    "id": "films",
+    "label": "films"
+  },
+  {
+    "id": "sport",
+    "label": "sport"
+  },
+  {
+    "id": "actualites-societe",
+    "label": "actualités & société"
+  },
+  {
+    "id": "documentaires",
+    "label": "documentaires"
+  },
+  {
+    "id": "enfants",
+    "label": "enfants"
+  },
+  {
+    "id": "jeux-divertissements",
+    "label": "jeux & divertissements"
+  },
+  {
+    "id": "series-fictions",
+    "label": "séries & fictions"
+  },
+  {
+    "id": "spectacles-culture",
+    "label": "spectacles & culture"
+  },
+  {
+    "id": "vie-quotidienne",
+    "label": "vie quotidienne"
+  }
+]
