@@ -1,4 +1,4 @@
-# rdf_mapping
+# RDF Mapping
 sample RDF of FranceTV mapping
 
 
