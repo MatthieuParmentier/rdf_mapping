@@ -1,0 +1,38 @@
+[
+  {
+    "id": "making-of",
+    "label": "Making-of"
+  },
+  {
+    "id": "interview",
+    "label": "Interview"
+  },
+  {
+    "id": "teaser",
+    "label": "Teaser"
+  },
+  {
+    "id": "resume",
+    "label": "Résumé"
+  },
+  {
+    "id": "bonus",
+    "label": "Bonus"
+  },
+  {
+    "id": "bande-annonce",
+    "label": "Bande-Annonce"
+  },
+  {
+    "id": "extrait",
+    "label": "Extrait"
+  },
+  {
+    "id": "integrale",
+    "label": "Intégrale"
+  },
+  {
+    "id": "flux",
+    "label": "Flux"
+  }
+]
