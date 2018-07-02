@@ -1,0 +1,102 @@
+[
+  {
+    "id": "acteur",
+    "label": "Acteur"
+  },
+  {
+    "id": "auteur",
+    "label": "Auteur"
+  },
+  {
+    "id": "chef-d-orchestre",
+    "label": "Chef d'orchestre"
+  },
+  {
+    "id": "choregraphe",
+    "label": "Chorégraphe"
+  },
+  {
+    "id": "choeur",
+    "label": "Choeur"
+  },
+  {
+    "id": "commentateur",
+    "label": "Commentateur"
+  },
+  {
+    "id": "compagnie",
+    "label": "Compagnie"
+  },
+  {
+    "id": "compositeur",
+    "label": "Compositeur"
+  },
+  {
+    "id": "costumes",
+    "label": "Costumes"
+  },
+  {
+    "id": "danseur",
+    "label": "Danseur"
+  },
+  {
+    "id": "dialogue",
+    "label": "Dialogue"
+  },
+  {
+    "id": "decors",
+    "label": "Décors"
+  },
+  {
+    "id": "groupe",
+    "label": "Groupe"
+  },
+  {
+    "id": "guest-start",
+    "label": "Guest start"
+  },
+  {
+    "id": "interprete",
+    "label": "Interprète"
+  },
+  {
+    "id": "invite",
+    "label": "Invité"
+  },
+  {
+    "id": "lumiere",
+    "label": "Lumière"
+  },
+  {
+    "id": "metteur-en-scene",
+    "label": "Metteur en scène"
+  },
+  {
+    "id": "musique",
+    "label": "Musique"
+  },
+  {
+    "id": "participant",
+    "label": "Participant"
+  },
+  {
+    "id": "presentateur",
+    "label": "Présentateur"
+  },
+  {
+    "id": "realisateur",
+    "label": "Réalisateur"
+  },
+  {
+    "id": "scenariste",
+    "label": "Scénariste"
+  },
+  {
+    "id": "soliste",
+    "label": "Soliste"
+  },
+  {
+    "id": "orchestre",
+    "label": "Orchestre"
+  }
+]
